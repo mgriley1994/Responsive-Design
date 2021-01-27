@@ -1,0 +1,233 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+.nav {
+  background-color: #5A2726;;
+  height: 200px;
+}
+.title {
+  font-size: 3em;
+  padding: 30px;
+  color: white;
+  font-style: italic;
+}
+.buttons {
+  height: 10em;
+  margin-top: 10px;
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.projects, .about, .contact {
+  padding: 10px;
+  font-size: 25px;
+  font-style: italic;
+  color: white;
+  font-family: 'Cedarville Cursive';
+  background-color: #5A2726;
+  margin-right: 15px;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  background-color: #5A2726;
+}
+.bio {
+  text-align: left;
+  float: right;
+  font-size: 1.5em;
+  color: white;
+  margin-right: 100px;
+  margin-left: auto;
+  margin-top: -325px;
+}
+#laptop {
+  margin-left: 30px;
+  margin-top: 30px;
+  width: 40%;
+}
+.project-button {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 25px;
+  font-style: italic;
+  color: white;
+  font-family: 'Cedarville Cursive';
+  background-color: #5A2726;
+}
+.image {
+  width: 20%;
+  height: 20%;
+  margin: 30px;
+}
+.samples {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: stretch;
+}
+.bottom {
+  font-size: 3em;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  margin-top: 25px;
+}
+.contacts {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 3em;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.social1, .social2, .social3 {
+  background-color: #5A2726;
+  padding: 20px;
+  font-size: 25px;
+  font-style: italic;
+  color: white;
+  font-family: 'Cedarville Cursive';
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 800px) {
+  .samples {
+  background-color: aqua;
+  }
+  .image {
+    border: 10px solid black;
+    width: 120px;
+    height: 120px;
+  }
+  #laptop {
+    border: 10px solid black;
+  }
+  .nav {
+    border: 10px solid black;
+  }
+  footer {
+    border: 10px solid black;
+  }
+  .projects, .about, .contact {
+      font-style: normal; 
+      font-size: medium; 
+      padding: 17px;
+      text-decoration: underline;
+      background-color: black;
+  }
+  .social1, .social2, .social3 {
+    font-style: normal; 
+    font-size: medium; 
+    padding: 17px;
+    text-decoration: underline;
+    background-color: black;
+  }
+  .project-button {
+    font-size: 17px; 
+    font-style: normal;
+    text-decoration: underline;
+    background-color: black;
+  }
+  .bio .opening-statement {
+    font-size: 17px;
+    }
+  .bio {
+    margin-right: 25px;
+    margin-top: -230px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  
+  .title {
+    font-size: 2em;
+    font-style: normal;
+  }
+  .bottom {
+    font-size: 2em;
+    font-style: normal;
+  }
+  .samples {
+  background-color: aqua;
+  }
+  .image {
+    border: 10px solid black;
+    width: 120px;
+    height: 120px;
+  }
+  #laptop {
+    border: 10px solid black;
+  }
+  .nav {
+    border: 10px solid black;
+  }
+  footer {
+    border: 10px solid black;
+  }
+  .projects, .about, .contact {
+      font-style: normal; 
+      font-size: medium; 
+      padding: 17px;
+      text-decoration: underline;
+      background-color: black;
+  }
+  .social1, .social2, .social3 {
+    font-style: normal; 
+    font-size: medium; 
+    padding: 17px;
+    text-decoration: underline;
+    background-color: black;
+  }
+  .project-button {
+    font-size: 10px; 
+    font-style: normal;
+    text-decoration: underline;
+    background-color: black;
+  }
+  .bio .opening-statement {
+    font-size: 10px;
+    }
+  .bio {
+    margin-right: 15px;
+    margin-top: -160px;
+    font-size: 15px;
+  }
+  .image {
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  .samples {
+    display: flex;
+    flex-direction: column;
+  }
+}
